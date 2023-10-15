@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+My flash website for 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+function toggle(element) {
+    if (document.getElementById(element).style.display == "none") {
+        document.getElementById(element).style.display = "block";
+    }
+    else if (document.getElementById(element).style.display == "block") {
+        document.getElementById(element).style.display = "none";
+    }
+}
+function toggleLinkBar() {
+    toggle("bar");
+}
+const openLinkPage = function(){
+    open("links.htm", "Links", 'width=235, height=235, scrollbars=yes');
+}
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Flash Games in 2023</title>
+
+</head>
+<body>
+    <button id="link-button" onClick="openLinkPage();">Links</button>
+        <script type="text/javascript" src="ruffle.js"></script>
+    <div id="bar">
+        <h1 class="titlebox">Flash Games in 2023:</h1>
+        <h4 class="titlebox">Go back in time so you can see these games (or maybe yours), on more time!</h4><br>
+    </div>
+    <p>Demo:</p>
+    <object id="flash-object" type="application/x-shockwave-flash" data="Flash-Tetris.swf" id="app" style="margin:0 20px;width:stretch;height:400px;">
+    </div>
+</body>
+</html>

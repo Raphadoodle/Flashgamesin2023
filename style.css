@@ -1,0 +1,24 @@
+body {
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times New Roman';
+}
+
+.titlebox {
+    display: block;
+    background-color: none;
+    font: Arial;
+    color: red;
+}
+
+
+#link-button {
+    color: red;
+    background-color: blue;
+    background: none;
+    border-radius: 20%;
+}
+.gameButton {
+    color: red;
+    font-style: 'Times New Roman';
+    background-color: chartreuse;
+}
